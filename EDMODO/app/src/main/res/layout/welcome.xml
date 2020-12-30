@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="edmodo"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:textColor="#000000"
+        android:id="@+id/text1"/>
+
+    <ImageView
+        android:id="@+id/stud"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/student"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:text="Membuat akun gratis"
+        android:id="@+id/button1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="Sudah memiliki akun? Klik disini untuk masuk"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="#000000"
+        android:id="@+id/text2"/>
+</RelativeLayout>
